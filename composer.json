@@ -1,0 +1,26 @@
+{
+    "name": "songyang/tp-interface-doc",
+    "description": "ThinkPHP Interface Doc",
+    "type": "project",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "宋杨",
+            "email": "945679940@qq.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {},
+    "repositories": {
+        "packagist": {
+            "type": "composer",
+            "url": "https://mirrors.aliyun.com/composer"
+        }
+    },
+    "autoload": {
+        "psr-4":{
+            "TpInterfaceDoc\\":"src",
+            "demo\\":"demo"
+        }
+    }
+}
